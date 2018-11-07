@@ -1,9 +1,12 @@
 import "./src/greatfox/falco/falco.scss";
 import Falco from "./src/greatfox/falco/falco";
+
 import "./src/greatfox/fox/fox.scss";
 import Fox from "./src/greatfox/fox/fox";
+
 import "./src/greatfox/slippy/slippy.scss";
 import Slippy from "./src/greatfox/slippy/slippy";
+
 import "./src/greatfox/peppy/peppy.scss";
 import Peppy from "./src/greatfox/peppy/peppy";
 
