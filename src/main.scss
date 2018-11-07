@@ -1,0 +1,37 @@
+html,
+body {
+    &.modal-open {
+        overflow: hidden;
+    }
+}
+[modal-overlay] {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.8;
+    background: #000;
+
+    &.is-open { display: block; }
+}
+.modal {
+    &-frame {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        background-color: #fff;
+        border: 1px solid #222;
+        color: #000;
+        transform: translate(-50%, -50%);
+        overflow-y: auto;
+
+        &.is-open { display: block; }
+
+        > .modal-content {
+            display: block;
+        }
+    }
+}
