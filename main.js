@@ -7,20 +7,20 @@ import Slippy from "./src/slippy/slippy";
 import "./src/peppy/peppy.scss";
 import Peppy from "./src/peppy/peppy";
 
-var modalInfo = new Falco();
-var scrollNav = new Fox();
 var accordion = new Slippy();
-var dropdown = new Peppy();
-
 accordion.init();
+
+var dropdown = new Peppy();
 dropdown.init();
 
+var scrollNav = new Fox();
 window.addEventListener("scroll", function() {
   scrollNav.init({
     className: ".scroll-nav"
   });
 });
 
+var modalInfo = new Falco();
 modalInfo.init({
   name: "info",
   open: ".open",

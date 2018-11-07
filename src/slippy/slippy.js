@@ -41,13 +41,3 @@ var Slippy = function() {
 };
 
 module.exports = Slippy;
-
-
-// const acc = document.querySelectorAll("button.accordion");
-// for (let o of acc) o.addEventListener("click", (e) => {
-//   e.target.classList.toggle("active");
-//   let panel = e.target.nextElementSibling;
-//   panel.style.maxHeight
-//     ? (panel.style.maxHeight = null)
-//     : (panel.style.maxHeight = panel.scrollHeight + "px");
-// });
