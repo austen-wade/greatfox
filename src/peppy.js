@@ -1,6 +1,6 @@
-const Peppy = function() {
+var Peppy = function() {
   "use strict";
-  let frame,
+  var frame,
     overlay,
     isInitialized = false,
     defaults = {
