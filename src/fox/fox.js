@@ -1,6 +1,7 @@
 /* Scrolling Nav */
 
 var Fox = function() {
+  "use strict";
   var scrollTop,
       scrollNav;
 

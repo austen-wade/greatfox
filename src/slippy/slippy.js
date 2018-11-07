@@ -1,6 +1,7 @@
 /* Accordion */
 
 var Slippy = function() {
+  "use strict";
   var accordion,
       accordionHeader,
       accordionContent;
