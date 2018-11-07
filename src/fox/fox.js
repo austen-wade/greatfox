@@ -1,9 +1,17 @@
 /* Scrolling Nav */
 var Fox = function() {
-  var scrollTop;
+  var scrollTop,
+      scrollNav;
 
-  var init = function() {
-    console.log(getScrollPositionY());
+  var init = function(opt) {
+    scrollNav = document.querySelector(opt.className + '[scroll-nav]');
+    
+    if (getScrollPositionY() > 100) {
+      scrollNav.style.position = "fixed";
+      scrollNav.style.top = 0;
+    } else {
+      scrollNav.style.position = "static";
+    }
   };
   var getScrollPositionY = function() {
     return window.pageYOffset !== undefined

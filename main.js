@@ -6,13 +6,13 @@ var modalInfo = new Falco();
 var scrollNav = new Fox();
 
 window.addEventListener('scroll', function() {
-  scrollNav.init()
+  scrollNav.init({
+    className: '.scroll-nav'
+  });
 })
 
-var settings = {
+modalInfo.init({
   name: "info",
   open: ".open",
   close: ".close"
-};
-
-modalInfo.init(settings);
+});
