@@ -1,11 +1,11 @@
-import "./src/falco/falco.scss";
-import Falco from "./src/falco/falco";
-import "./src/fox/fox.scss";
-import Fox from "./src/fox/fox";
-import "./src/slippy/slippy.scss";
-import Slippy from "./src/slippy/slippy";
-import "./src/peppy/peppy.scss";
-import Peppy from "./src/peppy/peppy";
+import "./src/greatfox/falco/falco.scss";
+import Falco from "./src/greatfox/falco/falco";
+import "./src/greatfox/fox/fox.scss";
+import Fox from "./src/greatfox/fox/fox";
+import "./src/greatfox/slippy/slippy.scss";
+import Slippy from "./src/greatfox/slippy/slippy";
+import "./src/greatfox/peppy/peppy.scss";
+import Peppy from "./src/greatfox/peppy/peppy";
 
 // for example html
 import './src/main.scss';
