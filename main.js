@@ -7,6 +7,9 @@ import Slippy from "./src/slippy/slippy";
 import "./src/peppy/peppy.scss";
 import Peppy from "./src/peppy/peppy";
 
+// for example html
+import './src/main.scss';
+
 var accordion = new Slippy();
 accordion.init();
 
