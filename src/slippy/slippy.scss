@@ -1,1 +1,6 @@
 /* Accordion */
+[accordion],
+[accordion-title],
+[accordion-content] {
+	overflow: hidden;
+}
