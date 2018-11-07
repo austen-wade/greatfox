@@ -1,12 +1,12 @@
-var Peppy = function() {
+var Falco = function() {
   "use strict";
   var frame,
-    overlay,
-    isInitialized = false,
-    defaults = {
-      width: "75%",
-      height: "75%"
-    };
+      overlay,
+      isInitialized = false,
+      defaults = {
+        width: "75%",
+        height: "75%"
+      };
 
   function init(opt) {
     frame = document.querySelector('[frame-name="' + opt.name + '"]');
@@ -27,6 +27,7 @@ var Peppy = function() {
     for (var i = 0; i < openers.length; i++) {
       openers[i].addEventListener("click", this.open);
     }
+
     for (var i = 0; i < closers.length; i++) {
       closers[i].addEventListener("click", this.close);
     }
@@ -45,21 +46,25 @@ var Peppy = function() {
 
     isInitialized = true;
   }
+
   function close() {
     if (!isInitialized) return;
     document.body.classList.remove("modal-open");
     frame.classList.remove("is-open");
     overlay.classList.remove("is-open");
   }
+
   function open() {
     if (!isInitialized) return;
     document.body.classList.add("modal-open");
     frame.classList.add("is-open");
     overlay.classList.add("is-open");
   }
+
   function setWidth(val) {
     frame.style.width = val;
   }
+
   function setHeight(val) {
     frame.style.height = val;
   }
@@ -73,4 +78,4 @@ var Peppy = function() {
   };
 };
 
-module.exports = Peppy;
+module.exports = Falco;

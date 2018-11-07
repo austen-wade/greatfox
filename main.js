@@ -1,7 +1,7 @@
-import "./src/peppy.scss";
-import Peppy from "./src/peppy";
+import "./src/falco/falco.scss";
+import Falco from "./src/falco/falco";
 
-const modalInfo = new Peppy();
+const modalInfo = new Falco();
 
 let settings = {
   name: "info",
