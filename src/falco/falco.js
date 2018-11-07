@@ -2,12 +2,12 @@
 var Falco = function() {
   "use strict";
   var frame,
-      overlay,
-      isInitialized = false,
-      defaults = {
-        width: "75%",
-        height: "75%"
-      };
+    overlay,
+    isInitialized = false,
+    defaults = {
+      width: "75%",
+      height: "75%"
+    };
 
   function init(opt) {
     frame = document.querySelector('[frame-name="' + opt.name + '"]');
