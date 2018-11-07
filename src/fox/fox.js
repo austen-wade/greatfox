@@ -1,4 +1,5 @@
 /* Scrolling Nav */
+
 var Fox = function() {
   var scrollTop,
       scrollNav;
