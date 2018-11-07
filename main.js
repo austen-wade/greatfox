@@ -1,4 +1,4 @@
-import "./src/main.scss";
+import "./src/peppy.scss";
 import Peppy from "./src/peppy";
 
 const modalInfo = new Peppy();
